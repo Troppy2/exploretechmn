@@ -1,10 +1,20 @@
 @import 
-url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:opsz@6..12&display=swap');
 
 body{
-	font-family: Verdana, sans-serif;
+	font-family: Krub, sans-serif;
 	margin: 0;
-	background-color: #000000;
+	background-color: #64A1F4;
+	color: black;
+	font-weight: 500;
+	text-align: center;
+}
+
+.img-fluid{  
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 15px;
 }
 
 nav .fa{
@@ -25,39 +35,39 @@ nav ul{
   list-style-type: none;
   text-align: center;
   margin: 0 auto;
+  font-weight: bold;
 }
 
 nav li{
   display: inline;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 nav a{
   text-decoration: none;
-  padding-right: 10px;
 }
 
 nav a:link{
-	color:#cc9900;
+	color: white;
 }
 
 nav a:visited{
-	color:#cc9900;
+	color: white;
 }
 
 nav a:hover{
-	color:#997a00;
+	color: lightgrey;
 }
 
 nav a:active{
-	color:black;
+	color: white;
 }
 
-nav{
-	background-color: #ffff99;
-	border-top: 2px #ffff80; solid;
-	border-bottom: 2px #ffff80; solid;
-	padding: 5px;
+.navbar-custom {
+	background-color:#164FD3;
 }
+
 
 main{
 	max-width: 1000px;
@@ -93,3 +103,4 @@ footer{
 		font-size: 1.5em;
 	}
 }
+

@@ -93,3 +93,11 @@ footer{
 		font-size: 1.5em;
 	}
 }
+#pg1 {
+    margin: auto;
+    padding: 20px;
+    background: #82CCFF;
+    position: absolute;
+    text-align: center;
+}
+

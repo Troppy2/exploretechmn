@@ -1,0 +1,95 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+body{
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	background-color: #000000;
+}
+
+nav .fa{
+	font-size: 2em;
+	margin: 0 auto;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.fa{
+	color: #ffcc00;
+	font-size: 3em;
+}
+
+/* Vertical Navigation bar */
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav li{
+  display: inline;
+}
+
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+nav a:link{
+	color:#cc9900;
+}
+
+nav a:visited{
+	color:#cc9900;
+}
+
+nav a:hover{
+	color:#997a00;
+}
+
+nav a:active{
+	color:black;
+}
+
+nav{
+	background-color: #ffff99;
+	border-top: 2px #ffff80; solid;
+	border-bottom: 2px #ffff80; solid;
+	padding: 5px;
+}
+
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+h1{
+	font-family: 'Playfair Display', cursive;
+	text-align: center;
+	font-size: 4em;
+}
+
+h2{
+	color: #ffcc00;
+}
+
+footer{
+	text-align: center;
+	border-top: 1px gray;
+	padding: 10px;
+}
+
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}

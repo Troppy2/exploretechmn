@@ -104,3 +104,30 @@ footer{
 	}
 }
 
+.about-sec {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background: #82CCFF; 
+}
+
+#pg1 {
+    text-align: center;
+}
+
+.about-sec h1 {
+    text-align: center;
+}
+
+.about-sec #text {
+    text-align: left;
+}
+
+.about-sec p {
+    font-size: 15px;
+    max-width: 600px;
+    text-align: justify;
+}
+
